@@ -1,6 +1,14 @@
 package com.notification.model;
 
-public abstract class User {
+import lombok.Getter;
+import lombok.Setter;
+
+import javax.persistence.MappedSuperclass;
+
+@MappedSuperclass
+@Getter
+@Setter
+public abstract class User extends BaseEntity{
     protected String firstName;
     protected String lastName;
     protected String email;

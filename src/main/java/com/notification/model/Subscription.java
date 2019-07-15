@@ -1,11 +1,17 @@
 package com.notification.model;
 
 import com.notification.enums.NotificationType;
+import lombok.Getter;
+import lombok.Setter;
 
+import javax.persistence.MappedSuperclass;
 import java.util.HashSet;
 import java.util.Set;
 
-public abstract class Subscription {
+@MappedSuperclass
+@Getter
+@Setter
+public abstract class Subscription extends BaseEntity {
     protected Long dailyLimit;
     protected Set<NotificationType> notificationTypes=new HashSet<>();
 
