@@ -1,8 +1,6 @@
-package com.notification.subscription;
+package com.notification.model;
 
 import com.notification.enums.NotificationType;
-
-import java.util.Set;
 
 public class PlatinumSubscription extends Subscription {
     public PlatinumSubscription() {

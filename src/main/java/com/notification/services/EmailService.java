@@ -1,8 +1,8 @@
 package com.notification.services;
 
-import com.notification.Notification;
+import com.notification.model.Notification;
 import com.notification.enums.NotificationType;
-import com.notification.user.EndUser;
+import com.notification.model.EndUser;
 
 import java.util.List;
 

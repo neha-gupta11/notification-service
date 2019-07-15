@@ -1,6 +1,4 @@
-package com.notification.user;
-
-import com.notification.subscription.Subscription;
+package com.notification.model;
 
 public class Subscriber extends User {
     private Subscription subscription;

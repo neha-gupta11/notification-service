@@ -1,4 +1,4 @@
-package com.notification.user;
+package com.notification.model;
 
 public abstract class User {
     protected String firstName;

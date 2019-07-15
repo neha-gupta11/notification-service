@@ -1,4 +1,4 @@
-package com.notification.subscription;
+package com.notification.model;
 
 import com.notification.enums.NotificationType;
 
